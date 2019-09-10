@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -30,4 +29,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* https://stackoverflow.com/questions/7280389/scrollable-box-containing-list-of-checkboxes-in-html */
+.scrollable-container {
+  border:2px solid #ccc;
+  width:300px;
+  height: 100px;
+  overflow-y: scroll;
 }
